@@ -24,9 +24,7 @@ module.exports = {
    * In most cases please use '/' !!!
    * Detail: https://cli.vuejs.org/config/#publicpath
    */
-  publicPath: process.env.NODE_ENV === 'production'
-      ? '/vue-admin-template/'
-      : '/'
+  publicPath: '/vue-admin-template/',
 
   outputDir: 'dist',
   assetsDir: 'static',
